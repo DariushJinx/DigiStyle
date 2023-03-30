@@ -1,0 +1,51 @@
+.mainDetails__fluid_issue,.mainDetails__parts_part_issue{
+    position: absolute;
+    bottom: 1%;
+    right: .9%;
+    padding: 5px;
+    background: var(--f5-color);
+    transition: all .4s;
+    border-bottom-right-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.mainDetails__parts_part_issue{
+    bottom: 3%;
+    right: 0%;
+}
+
+.mainDetails__fluid_item_img,.mainDetails__parts_part_images_img{
+    box-shadow: 0 0 5px 0 var(--7d-color);
+    border-radius: 10px;
+    transition: all .5s;
+    transform: scaleY(.99);
+}
+
+.mainDetails__fluid:hover .mainDetails__fluid_issue{
+    background: transparent;
+    padding: 15px;
+    color: var(--black-color);
+}
+
+.mainDetails__parts_part_images:hover .mainDetails__parts_part_issue{
+    background: transparent;
+    padding: 15px;
+    color: var(--white-color);
+}
+
+.mainDetails__fluid:hover .mainDetails__fluid_item_img{
+    box-shadow: 0 0 10px 0 var(--7d-color);
+    transform: translateY(-7px) scaleY(1.1);
+}
+
+.mainDetails__parts_part_images:hover .mainDetails__parts_part_images_img{
+    box-shadow: 0 0 10px 0 var(--7d-color);
+    transform: translateY(-7px) scaleY(1.1);
+}
+
+
+.mainDetails__parts_part_images{
+    position: relative;
+}
