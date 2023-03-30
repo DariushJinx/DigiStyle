@@ -1,0 +1,24 @@
+.amazingCards{
+    background-color: var(--f5-color);
+}
+
+.amazing__row{
+    --bs-gutter-x: 0rem !important;
+}
+
+.amazing__container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+.amazing__image{
+    background: url(../../../public/images/JPEG/amazing/amazing__bg_header.jpg);
+    width: 100%;
+    height: 95vh;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
