@@ -1,0 +1,26 @@
+.cardItem__slider {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  .cardItem__slider_item {
+    text-align: center !important;
+  font-size: 18px !important;
+  background: #fff !important;
+
+  /* Center slide text vertically */
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+  .cardItem__slider_item img {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .swiper__img_logo{
+    z-index: 3;
+    top: 0;
+    left: 0;
+  }
