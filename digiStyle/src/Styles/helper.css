@@ -1,0 +1,12 @@
+.amazing__slide {
+  background-position: center !important;
+  background-size: cover !important;
+  width: 350px !important;
+  height: 400px !important;
+}
+
+.amazing__slide img {
+  display: block !important;
+  width: 100% !important;
+  height: 400px !important;
+}

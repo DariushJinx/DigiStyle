@@ -1,0 +1,176 @@
+/* responsive */
+
+@media (min-width: 300px) {
+  .navbar-nav {
+    background: var(--white-color);
+    margin-top: 10px;
+  }
+
+  .navBarItem:hover .show {
+    display: none !important;
+  }
+
+  .swiperHeader__slide {
+    width: 100% !important;
+  }
+
+  .swiper__header_img {
+    width: 100% !important;
+  }
+
+  /* amazingSection */
+
+  .amazing {
+    height: 900px !important;
+  }
+
+  .amazing__right {
+    height: 150px !important;
+    padding: 0 !important;
+  }
+
+  .amazing__right_details {
+    height: 200px !important;
+  }
+
+  style {
+    margin: 10px 0 !important;
+  }
+
+  .amazing__right_details {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+  }
+
+  .mostVisited__right_details,
+  .bestSeller__right_details,
+  .mostRecent__right_details,
+  .recentVisit__right_details {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  .Bar,
+  .designersMenus,
+  .vr__navbar,
+  .popularBrands,
+  .swiper-pagination,
+  .menu,
+  .brands__persians,
+  .brands__international {
+    display: none;
+  }
+
+  .digiMeg__details_items {
+    margin-top: 5% !important;
+  }
+
+  .details__links_title_link,
+  .footer__details_desc {
+    width: 50% !important;
+    margin-top: 5%;
+  }
+
+  .footer__download_markets_images {
+    width: 47%;
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer__download_markets_images {
+    margin-top: 5%;
+    width: 23% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .amazing {
+    height: 700px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .amazing {
+    height: 500px !important;
+  }
+
+  .style {
+    margin: 230px 0 !important;
+  }
+
+  .amazing__right_details {
+    height: 400px !important;
+  }
+
+  .amazing__right {
+    height: 550px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navBarItem:hover .show {
+    display: block !important;
+  }
+
+  .navbar-nav {
+    background: inherit;
+    margin-top: 10px;
+  }
+
+  .amazing__right_details {
+    height: 400px !important;
+  }
+
+  .amazing__right {
+    height: 550px !important;
+  }
+
+  .Bar,
+  .vr__navbar,
+  .popularBrands,
+  .swiper-pagination,
+  .menu,
+  .brands__persians,
+  .brands__international {
+    display: block !important;
+  }
+
+  .health {
+    margin-top: 29%;
+  }
+
+  .offs__right_bottom_image_img {
+    height: inherit;
+  }
+
+  .details__links_title_link {
+    width: 25% !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .offs__right_bottom_image {
+    height: 273px !important;
+  }
+
+  .footer__download_markets_images {
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .designersMenus {
+    display: block;
+  }
+
+  .offs__right_bottom_image {
+    height: 263px !important;
+  }
+
+  .footer__download_markets_images {
+    margin-top: 5%;
+  }
+}
