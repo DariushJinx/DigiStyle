@@ -1,0 +1,15 @@
+.designersMenus_title_title{
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--black-color);
+}
+
+.designersMenus_title_links_link{
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.designersMenus_title_links_link:hover{
+    color: var(--black-color);
+}
