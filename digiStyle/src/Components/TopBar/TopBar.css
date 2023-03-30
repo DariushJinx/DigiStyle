@@ -1,0 +1,142 @@
+/* start__topBar__basket */
+
+.Bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.var__basket{
+    width: 1px !important;
+    min-height: 16px !important;
+}
+
+.topBar__basket_right_details_badge {
+    top: 0;
+    right: -3%;
+}
+
+.topBar__basket_right_login {
+    font-size: 13.5px;
+    font-weight: 500;
+    line-height: 1.8;
+    color: inherit;
+}
+
+.topBar__basket_right_login:hover {
+    color: inherit;
+}
+
+.topBar__basket_hover {
+    width: 400px;
+    z-index: 1;
+    top: 90%;
+    right: -20%;
+    display: none;
+    background: var(--white-color);
+}
+
+.topBar__basket_right_details:hover .topBar__basket_hover {
+    display: flex !important ;
+}
+
+.topBar__basket_hover_title {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.topBar__basket_hover_desc {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 2;
+    color: var(--7b-color);
+}
+
+.topBar__basket_hover_links_link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+    color: var(--41c-color);
+}
+
+.topBar__basket_hover_links_link:hover {
+    color: var(--41c-color);
+}
+
+.triangel {
+    padding: 5px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: -2%;
+    right: 5%;
+    transform: rotate(132deg);
+    z-index: 0;
+    width: 10px;
+}
+
+/* end__topBar__basket */
+
+/* start__topBar__styles */
+.topBar__styles {
+    margin-right: 16%;
+}
+/* end__topBar__styles */
+
+/* start__topBar__search */
+
+.topBar__search {
+    flex-basis: 18%;
+}
+
+.topBar__search_details {
+    border-bottom: 1px solid var(--black-color);
+    padding-bottom: 5px;
+}
+
+.topBar__search_details_search {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.offcanvas {
+    background: var(--f2f-color);
+    padding-top: 50px;
+}
+
+.btn-close {
+    margin-right: auto !important;
+}
+
+.offcanvas-top {
+    height: 70vh !important;
+}
+
+.offcanvas-backdrop {
+    height: 0 !important;
+}
+
+.offcanvas__form_group {
+    border-bottom: 1px solid var(--black-color);
+}
+
+.offcanvas__form_group_input {
+    border: none;
+    background: transparent;
+}
+
+.offcanvas__form_group_input:focus {
+    background: transparent;
+    border-color: var(--black-color);
+}
+
+.offcanvas__mostSearch_title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.67;
+    color: var(--black-color);
+}
+
+/* end__topBar__search */
