@@ -1,0 +1,9 @@
+.mostVisited__right{
+    margin-top: 12%;
+}
+
+.mostVisited__right_details_desc{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--black-color);
+}
