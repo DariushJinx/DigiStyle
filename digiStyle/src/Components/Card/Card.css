@@ -1,0 +1,44 @@
+
+.cardItem{
+    height: 100%;
+}
+
+.cardItem__details_rating_title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.cardItem__details_rating_flex_rate{
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.cardItem__details_price_main{
+    font-size: 14px;
+}
+
+.cardItems__details_toman{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cardItem__percent{
+    top: 67%;
+    left: 0%;
+    padding: 10px;
+    background: var(--black-color);
+    color: var(--white-color);
+}
+
+.cardItem__brand{
+    top: 0;
+    right: 0%;
+    padding: 10px;
+    background: var(--black-color);
+    color: var(--white-color);
+}
+
+
+  
