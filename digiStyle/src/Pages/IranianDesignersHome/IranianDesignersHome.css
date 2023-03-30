@@ -1,0 +1,21 @@
+.iranian{
+    margin-top: 15%;
+}
+
+.iranian__title{
+    text-align: center;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.iranian__menu_3_part_large_1_img {
+    height: 469px !important;
+}
+
+.iranian__menu_3_part_large_2_img,.iranian__menu_3_part_large_3_img{
+    height: 230.5px !important;
+}
