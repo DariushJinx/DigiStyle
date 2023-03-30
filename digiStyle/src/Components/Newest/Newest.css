@@ -1,0 +1,11 @@
+.newest__items_images_img{
+    box-shadow: 0 0 10px 0 var(--7d-color);
+    transform: perspective(100px) scale3d(.99, 0.7, 0.2) translateZ(0);
+    transition: all .5s;
+}
+
+.newest__items_images_img:hover{
+    box-shadow: 2px 7px 10px 3px var(--7d-color);
+    transform: perspective(500px) scale3d(1.01, 0.7, 0.2) translateY(-107px) translateZ(100px);
+
+}
