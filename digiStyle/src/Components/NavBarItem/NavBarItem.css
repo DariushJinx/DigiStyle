@@ -1,0 +1,81 @@
+.vr__navbar{
+    min-height: 2px !important;
+    width: 35% !important;
+    display: block;
+    opacity: .5 !important;
+}
+
+.nav-link{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2;
+    color: var(--black-color);
+    opacity: .5;
+    transition: all .3s;
+}
+
+.nav-link:hover{
+    color: var(--black-color);
+    opacity: 1;
+    font-weight: 700;
+}
+
+.hoverMenu{
+    display: none;
+    /* margin-top: 5px; */
+    height: 70vh;
+    
+    width: 100vw;
+    margin: 5px auto;
+    top: 65%;
+    left: 0%;
+}
+
+.navBarItem:hover .show{
+    display: block;
+}
+
+.hoverMenu__details_title_link,.hoverMenu__images_title,.hoverMenu__images_images_link{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.54;
+    color: var(--black-color);
+}
+
+.hoverMenu__details_title_link:hover,.hoverMenu__images_images_link:hover{
+    color: var(--black-color);
+}
+
+.hoverMenu__width{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hoverMenu__images{
+    border-right: 1px solid var(--black-color);
+    padding-right: 50px;
+}
+
+.hoverMenu__images_images_img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 1px var(--75-color);
+    transition: all .3s;
+}
+
+.hoverMenu__images_images_img:hover{
+transform: translateY(-7px);
+box-shadow: 2px 10px 10px 3px var(--75-color);
+}
+
+.hoverMenu__details_desc_right_menu_link{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    color: var(--75-color);
+    transition: all .3s;
+}
+
+.hoverMenu__details_desc_right_menu_link:hover{
+    color: var(--black-color);
+}

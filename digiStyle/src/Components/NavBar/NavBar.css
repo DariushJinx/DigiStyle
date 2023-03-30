@@ -1,0 +1,12 @@
+.Nav{
+    position: absolute;
+    top: 9%;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+
+.navbar-toggler {
+    background: rgb(230, 230, 248);
+}
