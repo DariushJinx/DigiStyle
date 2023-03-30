@@ -1,0 +1,59 @@
+
+
+
+/* start__amazing__right */
+.amazing__right{
+  height: 550px;
+  padding: 95px 0;
+}
+
+.amazing__right_details{
+  height: 400px;
+}
+
+.amazing__right_details_image_img{
+  width: 140px;
+}
+  
+
+.amazing__right_details_button_link{
+  padding: 10px 20px;
+  background: var(--f15-color);
+  border: 1px solid var(--f15-color);
+  color: var(--white-color);
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all .3s;
+}
+
+.amazing__right_details_button_link:hover{
+  background: var(--f5-color);
+  border-color: var(--f15-color);
+  color: var(--f15-color);
+  box-shadow: 0 10px 10px 2px var(--black-color);
+}
+
+.amazing__left{
+  height: 300px;
+}
+
+.amazing__left_details{
+  height: 300px;
+}
+
+.amazing__slide {
+  background-position: center !important;
+  background-size: cover !important;
+  width: 350px !important;
+  height: 400px !important;
+}
+
+.amazing__slide img {
+  display: block !important;
+  width: 100% !important;
+  height: 400px !important;
+}
+
+
+/* end__amazing__right */
+
