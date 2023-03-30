@@ -1,0 +1,15 @@
+.offs__row{
+    --bs-gutter-x: 7px !important;
+}
+
+.offs__left_bottom_right_image_img,.offs__left_bottom_left_image_img{
+    height: 337px;
+}
+
+.offs__right_top_image_img,
+.offs__right_bottom_image_img,
+.offs__left_top_image_img,
+.offs__left_bottom_right_image_img,
+.offs__left_bottom_left_image_img{
+    vertical-align: auto !important;
+}
