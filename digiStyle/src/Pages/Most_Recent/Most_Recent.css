@@ -1,0 +1,13 @@
+.mostCards{
+    /* position: relative; */
+    padding-top: 9%;
+}
+
+.most__row{
+    --bs-gutter-x: 0rem !important;
+}
+
+.most__container{
+    width: 95%;
+    margin: 0 auto;
+}
