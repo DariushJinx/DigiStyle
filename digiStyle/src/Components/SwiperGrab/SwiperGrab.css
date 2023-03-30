@@ -1,0 +1,26 @@
+
+  
+  .amazing__left_details{
+    height: 300px;
+  }
+  
+  .amazing__swiper {
+    width: 100% !important;
+    margin: 100px 0 !important;
+    height: 600px !important;
+  }
+  
+  .amazing__swiper > .swiper-wrapper{
+    height: 0% !important;
+  }
+  
+  .swiper-slide-shadow-left,.swiper-slide-shadow-right{
+    width: 0 !important;
+  }
+
+  
+ 
+  
+
+  
+  /* end__amazing__left */
