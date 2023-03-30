@@ -1,0 +1,19 @@
+
+
+.health__title{
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--black-color);
+}
+
+.health__item_details_img{
+    box-shadow:  0 0 10px 0 var(--7d-color);
+    transform: perspective(100px) scale3d(1,.9,.1) translateY(0) translateZ(0);
+    transition: all .5s;
+    border-radius: 10px;
+}
+
+.health__item_details_img:hover{
+    box-shadow: 0 7px 15px 3px var(--7d-color);
+    transform: perspective(1000px) scale3d(.9,.8,0.2) translateY(-90px) translateZ(200px);
+}
