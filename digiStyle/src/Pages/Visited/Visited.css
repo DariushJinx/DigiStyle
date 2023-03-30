@@ -1,0 +1,13 @@
+.visitedCards{
+    /* position: relative; */
+    padding-top: 9%;
+}
+
+.visited__row{
+    --bs-gutter-x: 0rem !important;
+}
+
+.visited__container{
+    width: 95%;
+    margin: 0 auto;
+}
