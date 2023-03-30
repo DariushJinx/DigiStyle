@@ -1,0 +1,55 @@
+.details__gift_img{
+    box-shadow: 2px 2px 15px 0 var(--7d-color);
+    transform: perspective(100px) scale3d(1,1,.5) translateZ(0px);
+    transition: all .5s;
+}
+
+.details__gift_img:hover{
+    box-shadow: 5px 7px 15px 5px var(--7d-color);
+    transform: perspective(4000px) scale3d(.8,.9,.1) translateY(-40px) translateZ(150px);
+}
+
+.details__links_title_link_title{
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 18px;
+    font-weight: 500;
+    opacity: .5;
+    transition: all .3s;
+}
+
+.details__links_title_link_title:hover{
+    color: var(--black-color);
+    opacity: 1;
+}
+
+
+.details__links_title_link_parts{
+    margin-top: 20px;
+}
+
+.details__links_title_link_parts_first{
+    text-decoration: none;
+    margin-top: 13px;
+    color: var(--black-color);
+    opacity: .5;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all .3s;
+}
+
+.details__warranty_item_img{
+    width: 45%;
+}
+
+.details__links_title_link_parts_first:hover{
+    color: var(--black-color);
+    opacity: 1;
+}
+
+.details__warranty_item_desc{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--43-color);
+    padding: 10px;
+}
