@@ -1,0 +1,71 @@
+.brands{
+    margin-top: 15%;
+}
+
+.brands__search_sales_title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.brands__search_search{
+    border-bottom: 1px solid var(--black-color);
+}
+
+.brands__search_search_input{
+    border: none;
+}
+
+.brands__search_search_input:focus{
+    outline: none;
+}
+
+.brands__exp_item_details_img{
+    box-shadow: 2px 2px 15px 0px var(--black-color);
+    transform: perspective(100px) scale3d(1, 1, 0.2) translateZ(0);
+    transition: all .5s;
+}
+
+.brands__exp_item_details_img:hover{
+    box-shadow: 2px 5px 15px 5px var(--black-color);
+    transform: perspective(300px) scale3d(1, 1.1, 0.1) translateY(13px) translateZ(200px);
+}
+
+.brands__persians{
+    margin-top: 70px;
+}
+
+.brands__persians_title_title{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--7d-color);
+    opacity: .8;
+}
+
+.brands__persians_items_link{
+    margin: 0 1%;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--black-color);
+    opacity: .5;
+    transition: all .3s;
+}
+
+.brands__persians_items_link:hover{
+    color: var(--black-color);
+    opacity: 1;
+}
+
+.brands__international_items_link{
+    margin: 0 1.2%;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--black-color);
+    opacity: .5;
+    transition: all .3s;
+}
+
+.brands__international_items_link:hover{
+    color: var(--black-color);
+    opacity: 1;
+}
