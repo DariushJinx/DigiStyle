@@ -1,0 +1,47 @@
+.popularBrands__title_brand_title{
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.popularBrands__title_links_link{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.popularBrands__title_links_link:hover{
+    color: var(--black-color);
+}
+
+.popularBrands__details_bg{
+    background: var(--e9-color);
+    height: 210px;
+    margin-top: 21px;
+}
+.popularBrands__name_logo{
+    width: 90px;
+}
+
+.cardItem__percent_popular{
+    top: 63%;
+    left: 0%;
+    padding: 10px;
+    background: var(--black-color);
+    color: var(--white-color);
+}
+
+.popularBrands__name_links_link{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.popularBrands__name_links_link:hover{
+    color: var(--black-color);
+}
+
+
+.popularBrands__name_links{
+    margin-right: 65px;
+}
