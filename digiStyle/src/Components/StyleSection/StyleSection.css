@@ -1,0 +1,33 @@
+
+.style__slider_right{
+    margin-top: 1.5%;
+    z-index: 2;
+}
+
+.style__week_title{
+    z-index: 2;
+    padding: 10px 0;
+    background-color: var(--white-color);
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--black-color);
+}
+
+.style__week_button{
+    z-index: 2;
+    padding: 10px 0;
+}
+
+.style__slider_right_img{
+    height: 750px;
+}
+
+.style__frame{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid var(--black-color);
+    margin: 0 150px;
+}
