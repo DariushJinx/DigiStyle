@@ -1,0 +1,13 @@
+.bestSellerCards{
+    /* position: relative; */
+    padding-top: 9%;
+}
+
+.bestSeller__row{
+    --bs-gutter-x: 0rem !important;
+}
+
+.bestSeller__container{
+    width: 95%;
+    margin: 0 auto;
+}
