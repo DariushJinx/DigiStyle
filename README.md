@@ -1,8 +1,13 @@
 # DigiStyle
 
+<div>
 <h2>📋  &nbsp; Languages :</h2>
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
 </div>
+
+![languages](https://img.shields.io/github/languages/count/DariushJinx/DigiStyle)
+
+![commit activity](https://img.shields.io/github/commit-activity/m/DariushJinx/DigiStyle)
 
 <div>  
 <h2>📚 &nbsp; Frameworks, Platforms and Libraries :</h2>
